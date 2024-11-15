@@ -22,7 +22,7 @@ Database: MySQL
 Development Environment: XAMPP, VS Code
 Additional Libraries: FontAwesome for icons
 
-#Project Structure
+# Project Structure
 
 mishrajii-gym/
 ├── assets/               # Images, icons, and other static assets
@@ -38,8 +38,9 @@ mishrajii-gym/
 
 Install XAMPP to run PHP and MySQL locally.
 Install a code editor like VS Code.
-Setup Instructions
-Clone the Repository:
+
+# Setup Instructions
+# Clone the Repository:
 git clone https://github.com/yourusername/mishrajii-gym.git
 
  # Start XAMPP:
@@ -56,24 +57,24 @@ define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_NAME', 'gym_management');
 
-Run the Project:
+# Run the Project:
 -- Place the project folder inside the htdocs directory of XAMPP. -- Go to your browser and enter
 
-Icon Dependency
+# Icon Dependency
 -- This project uses FontAwesome for icons. Ensure FontAwesome is available for proper icon rendering.
 
 Option 1: Download FontAwesome locally: -- Download FontAwesome and place it in the project directory. Option 2: Use the CDN link in HTML files
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-Usage
--- Admin Login: Access the admin panel to manage users, memberships, and classes. -- User Registration: Users can register to apply for memberships, view class schedules, and update their profiles. Contributing We welcome contributions to improve the project. Here’s how you can contribute:
+# Usage
+ -- Admin Login: Access the admin panel to manage users, memberships, and classes. -- User Registration: Users can register to apply for memberships, view class schedules, and update their profiles. Contributing   We welcome contributions to improve the project. Here’s how you can contribute:
 
-Fork the repository.
-Create a feature branch
+# Fork the repository.
+# Create a feature branch
 git checkout -b feature-name
 Commit changes and create a pull request.
-Limitations
+# Limitations
 -- Internet Dependency: Some features require internet access to load FontAwesome icons if using the CDN. -- Payment Integration: Currently, no online payment feature is implemented for membership fees.
 
-Conclusion
+# Conclusion
 The Mishrajii Gym Management System is an all-in-one platform for managing gym operations. It provides admins with easy control over memberships and class schedules and enhances the user experience for gym members. With further development, it can be expanded to include payment gateways and mobile responsiveness.
